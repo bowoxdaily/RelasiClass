@@ -1,3 +1,5 @@
+from abc import ABC
+from produk import produk
 
 class Minyak(Produk):
     
@@ -14,4 +16,6 @@ class Minyak(Produk):
     def get_harga(self,harga)->float :
         return  self.__harga
     
-    
+    def show_produk (self,nama,harga):
+        print(self.__nama)
+        print(self.__harga)
