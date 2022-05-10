@@ -6,12 +6,12 @@ class Minyak(Produk):
             
         
     def get_nama(self,nama )->str:
-        return "produk ini Minyak",self.__nama   
+        return self.__nama   
     
     def set_harga(self,harga) :
         self.harga = harga
         
     def get_harga(self,harga)->float :
-        return  "12000",self.__harga
+        return  self.__harga
     
     
