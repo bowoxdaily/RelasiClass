@@ -1,5 +1,5 @@
 from abc import ABC
-from produk import produk
+from produk import Produk
 
 class Minyak(Produk):
     
